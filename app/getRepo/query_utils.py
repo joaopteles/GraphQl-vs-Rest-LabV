@@ -17,7 +17,7 @@ def criar_query(params, query_template):
 def execute_query(query):
     request = requests.post('https://api.github.com/graphql', json={'query': query}, headers={
         'Content-Type': 'application/json',
-        'Authorization': 'bearer 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'
+        'Authorization': 'bearer {token}'
     })
     if request.status_code == 200:
         return request

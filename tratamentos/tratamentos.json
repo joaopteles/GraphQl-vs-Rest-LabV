@@ -1,0 +1,10 @@
+{
+    "interacoes": 50,
+    "tamanho_query": [
+        "stars:>100",
+        "stars:>100+language:Javascript",
+        "stars:>100+language:JavaScript+size:>=100",
+        "stars:>100+language:JavaScript+size:>=100+forks:>5"
+    ],
+    "quantidade_itens": [ 20, 40, 60, 80, 100]
+}
